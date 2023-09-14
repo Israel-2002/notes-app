@@ -1,0 +1,26 @@
+.note__details-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.note__details-actions {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.note__details-actions a {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.3rem;
+  color: #90a3bf;
+}
+
+.note__details-title {
+  margin-bottom: 1.5rem;
+}
+
+.note__details-date {
+  margin-bottom: 2.5rem;
+}

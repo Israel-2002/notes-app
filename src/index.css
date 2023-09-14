@@ -1,0 +1,28 @@
+@font-face {
+  font-family: "satoshi";
+  src: url(./assets/fonts/Satoshi_Complete/Fonts/OTF/Satoshi-Regular.otf);
+}
+
+@font-face {
+  font-family: "satoshi semi";
+  src: url(./assets/fonts/Satoshi_Complete/Fonts/OTF/Satoshi-Bold.otf);
+}
+
+@font-face {
+  font-family: "satoshi bold";
+  src: url(./assets/fonts/Satoshi_Complete/Fonts/OTF/Satoshi-Medium.otf);
+}
+
+body,
+textarea,
+input {
+  font-family: "satoshi", sans-serif;
+}
+
+h2 {
+  font-family: "satoshi bold", sans-serif;
+}
+
+.title {
+  font-family: "satoshi semi", sans-serif;
+}

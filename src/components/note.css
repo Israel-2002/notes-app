@@ -1,0 +1,18 @@
+.note {
+  background-color: rgb(26, 32, 44);
+  color: #90a3bf;
+  padding: 1rem;
+  border-radius: 5px;
+}
+
+.note__title {
+  margin-bottom: 0.5rem;
+}
+
+.note__note {
+  margin-bottom: 1rem;
+}
+
+.note__date {
+  font-size: 0.875rem;
+}

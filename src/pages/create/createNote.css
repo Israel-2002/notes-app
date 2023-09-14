@@ -1,0 +1,18 @@
+.create__form {
+  display: grid;
+  gap: 2rem;
+}
+
+.create__header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.btn-save {
+  display: flex;
+  gap: 0.3rem;
+  align-items: center;
+  color: #90a3bf;
+}
+

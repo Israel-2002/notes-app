@@ -1,0 +1,10 @@
+.edit__form {
+  display: grid;
+  gap: 2rem;
+}
+
+.edit__header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}

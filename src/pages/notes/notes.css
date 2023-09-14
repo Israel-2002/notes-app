@@ -1,0 +1,37 @@
+.notes__container {
+  position: relative;
+}
+
+.notes__header-default,
+.notes__header-search {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.notes__search {
+  width: 70%;
+  max-width: 350px;
+}
+
+.notes__list {
+  display: grid;
+  gap: 2rem;
+}
+
+.notes__new {
+  text-align: center;
+}
+
+.btn-add {
+  position: absolute;
+  bottom: 2rem;
+  right: 5%;
+  background-color: rgba(255, 255, 255, 0.795);
+}
+
+@media (min-width: 425px) {
+  .notes__list {
+    grid-template-columns: 1fr 1fr;
+  }
+}
